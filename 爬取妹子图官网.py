@@ -64,7 +64,7 @@ def downloadPic(url, root, name):
 
 # todo 写注释和修改获取图片链接的逻辑
 if __name__ == '__main__':
-	url = 'https://www.mzitu.com/all'
+	url = 'https://www.cmb72.com/tupian/list-亚洲色图.html'
 	htText = getHTMLText(url)
 	soup = BeautifulSoup(htText, 'html.parser')
 	count = 0
