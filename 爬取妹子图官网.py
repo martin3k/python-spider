@@ -64,12 +64,12 @@ def downloadPic(url, root, name):
 
 # todo 写注释和修改获取图片链接的逻辑
 if __name__ == '__main__':
-	url = 'https://www.cmb72.com/tupian/list-亚洲色图.html'
+	url = 'https://www.dma96.com/tupian/list-亚洲色图.html'
 	htText = getHTMLText(url)
 	soup = BeautifulSoup(htText, 'html.parser')
 	count = 0
 	totalPictureSets = 200
-	pattern = re.compile('https://www.mzitu.com/\d+') # 匹配正确的页面
+	pattern = re.compile('https://www.dma96.com/\d+') # 匹配正确的页面
 	mostLiked = ['https://www.mzitu.com/197306',     # 截止11月29号的排行榜的图集网址
 	             'https://www.mzitu.com/189574',
 	             'https://www.mzitu.com/191199',
